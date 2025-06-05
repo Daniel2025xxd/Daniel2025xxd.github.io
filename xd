@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Personal - Medina Bruno </title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    header {
+      background-color: #296dd4;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .social-icons a {
+      color: #1b64d1;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #e9ecef;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Encabezado -->
+  <header>
+    <img src="IMAGEN/Foto de perfilxd.jpg" alt="Imagen Guadalupe Norte" loading="lazy" />
+    <h1 class="mt-3">Medina Bruno</h1>
+  </header>
+
+  <!-- 2. Sobre mí -->
+  <section id="sobre-mi" class="container">
+    <h2 class="text-center mb-4">Dato Personal</h2>
+    <p class="text-center">
+      Estudio en el Instituto Superior del Profesorado N.º 63 "Natalia Quessus", ubicado en la ciudad de Las Toscas, provincia de Santa Fe, Argentina. Actualmente curso la Tecnicatura Superior en Desarrollo de Software.
+Tengo 18 años y me apasiona el mundo del desarrollo web y la programación. Disfruto crear sitios web interactivos, explorar nuevas tecnologías y herramientas, y resolver desafíos que requieren lógica, análisis y creatividad.
+Mi objetivo es seguir creciendo profesionalmente en el área del desarrollo de software, aportando soluciones eficientes y aprendiendo de cada experiencia.
+
+
+
+  <!-- 3. Proyectos -->
+  <section id="proyectos" class="container">
+    <h2 class="text-center mb-4">Proyectos</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card">
+       <img src="IMAGEN/imagen de la pagina web simulador android tv 12 .png" alt="Preyecto 1" loading="lazy" />
+          <div class="card-body">
+            <h5 class="card-title">Simulador Android TV</h5>
+            <p class="card-text">Una simulación interactiva de Android TV con apps funcionales, diseñado para funcionar en navegadores. Incluye una interfaz visual similar a un Android TV real, con animaciones, sonido al navegar, y soporte para control con teclado. Simula una pantalla de inicio con múltiples aplicaciones como Netflix, YouTube, Spotify, Noticias, Clima, Juegos, Reloj, Play Store y más. Cada app abre una vista interna funcional o un enlace real, brindando una experiencia fluida tipo Smart TV.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src= "IMAGEN/imagen de la pagina de la cooperativa de trabajo conjunto a la comuna .png" alt="Preyecto 2" loading="lazy" />
+          <div class="card-body">
+            <h5 class="card-title">Página oficial de la Comuna y la Cooperativa de Trabajo de Guadalupe Norte
+Desde 2013</h5>
+            <p class="card-text">Ambas instituciones trabajan juntas por el desarrollo sustentable y el bienestar de la comunidad. La página presenta información sobre la Comuna local, la Cooperativa de Trabajo formada por vecinos, sus etapas de crecimiento, proyectos productivos, servicios y vías de contacto.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Contacto -->
+  <section id="contacto" class="bg-light text-center">
+    <div class="container">
+      <h2 class="mb-3">Contacto</h2>
+      <p>¿Te gustaría contactarme? Aquí tienes mis redes:</p>
+      <p>
+        <a href="mailto:juan.perez@email.com" class="btn btn-primary mb-3">Enviar correo</a>
+      </p>
+      <div class="social-icons">
+        <a href="https://instagram.com/medina_bruno_2025" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://facebook.com/bruno.medina.5437923" target="_blank"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Medina Bruno - Todos los derechos reservados
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
